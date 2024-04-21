@@ -1,0 +1,51 @@
+{
+  "id": "4517466",
+  "name": "bookstore",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8655882",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "1244100",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "2036621",
+      "name": "五角星空",
+      "font_class": "wujiaoxingkong",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "3456452",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "6279237",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "8103425",
+      "name": "箭头",
+      "font_class": "danseshixintubiao-",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}

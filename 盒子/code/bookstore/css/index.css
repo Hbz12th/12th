@@ -1,0 +1,136 @@
+header{
+    height: 4.5rem;
+    z-index: 1;
+    top:0rem;
+}
+header>div:first-child>i::before,header>div:last-child>i::before{
+    font-size:5rem;
+}
+header>div{
+    /*border:1px solid red;*/
+}
+header>div:first-child{
+    flex-grow: 1;
+}
+header>div:nth-child(2){
+    flex-grow: 10;
+}
+header>div:nth-child(3){
+    flex-grow: 1;
+}
+/*banner style*/
+.banner{
+    /*height: 1000px;*/
+    background: tan;
+    /*position: absolute;*/
+    width: 39rem;
+    margin:0px auto;
+    margin-top:4.5rem;
+    /*border:1px solid red;*/
+    overflow: hidden;
+}
+.banner>div{
+    width: calc(39rem * 3);
+    display: flex;
+    animation: animat 10s infinite;
+}
+.banner>div>img{
+    width: 39rem;
+}
+@keyframes animat {
+    35%{
+        margin-left: -39rem
+    }
+    70%{
+        margin-left: calc(-39rem * 2);
+    }
+    100%{
+        margin-left: calc(-39rem * 3);
+    }
+}
+/* recomment style */
+.recomment{
+    width: 39rem;
+    /*border:1px solid red;*/
+    margin:10px auto;
+    padding: 1.5rem 0.5rem 2rem;
+}
+.recomment>div>a>img{
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+/*首页商品分类导航*/
+.nav>div{
+    /*padding: .6rem 0rem;*/
+    width: 13rem;
+    height: 4rem;
+}
+.nav>div:first-child>span{
+    padding-bottom: 0.6rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-bottom: 0.3rem solid var(--bgcolor-ffa666);
+}
+/*商品区域*/
+.goods{
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+}
+.goods>div{
+    width: calc(38rem / 2);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    box-shadow: .2rem .3rem .3rem var(--box-shadow-e9);
+    padding-bottom: 1rem;
+}
+.goods>div>a>img{
+    width: 100%;
+}
+.goods>div>a>div>span:last-child>i:before{
+    font-size:1rem;
+    margin-left: .8rem;
+    margin-right: .3rem;
+}
+/*返回顶部*/
+.top{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: url('../img/5.png') no-repeat center;
+    position: fixed;
+    right:3rem;
+    bottom:8rem;
+    box-shadow: .3rem .3rem .3rem #999;
+}
+/*nav style*/
+nav{
+    width: 100%;
+    height: 5rem;
+    bottom:0px;
+}
+nav>div{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>div:nth-child(2)>a>i:before{
+    font-size:1.2rem;
+}
+nav>div:nth-child(3)>a>i:before{
+    font-size:1.2rem;
+}
+nav>div:nth-child(3)>a{
+    position: relative;
+}
+nav>div:nth-child(3)>a>span:first-child{
+    position: absolute;
+    padding: 0rem 0.3rem;
+    background: red;
+    color:#fff;
+    border-radius: 50%;
+    top:-1.3rem;
+    right:.8rem;
+}
